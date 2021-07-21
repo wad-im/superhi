@@ -6,16 +6,16 @@ all projects of this course are live
 
 ## Fifty Festival
 
-[Fifty Festival](fifty-festival-282.superhi.com)
+[Fifty Festival](https://fifty-festival-282.superhi.com)
 
 ## Jiffy
 
-[Jiffy](jiffy-205.superhi.com)
+[Jiffy](https://jiffy-205.superhi.com)
 
 ## Super Shapes
 
-[Super Shapes](super-shapes-142.superhi.com)
+[Super Shapes](https://super-shapes-142.superhi.com)
 
 ## Good Times
 
-[Good Times](good-times-109.superhi.com)
+[Good Times](https://good-times-109.superhi.com)
