@@ -1,0 +1,43 @@
+section {
+  height: 100vh;
+  background-image: url("the-pen.svg");
+  background-size:  cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.part_2 {
+  background-image: url(is-mightier.svg);
+  background-color: #000000;
+}
+
+.part_3 {
+  background-image: url(than.svg);
+  background-color: #ffffff;
+}
+
+.part_4 {
+  background-image: url(the-sword.svg);
+  background-color: #000000;
+}
+
+.part_5 {
+  background-image: url(end.svg);
+  background-color: #00F10A;
+}
+
+footer {
+  display:  flex;
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  bottom: 30px;
+  }
+
+@media (max-width: 800px) {
+  section {
+    background-attachment: scroll;
+    height: 60vw;
+  }
+}
+

@@ -1,0 +1,256 @@
+body {
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #2f6a49;
+  width: 100%;
+}
+
+header {
+  padding: 20px 20px;
+  background-color: #2f6a49;
+  overflow: hidden;
+}
+
+header h1 {
+  max-width: 140px;
+  float: left;
+}
+
+header nav {
+  padding: 3px;
+  float: right;
+}
+
+header nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+header nav a:hover {
+  border-bottom: 2px solid #ffb6c4;
+}
+
+.hero {
+  background-image: url(header-background.svg);
+  background-size: cover;
+  padding-top: 275px;
+  padding-bottom: 255px;
+}
+
+.hero h2 {
+  max-width: 800px;
+  font-size: 80px;
+  color: #ff4141;
+  text-align: center;
+  line-height: 1.2;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about {
+  background-color: #ffb6c4;
+}
+
+.about div {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+.about h3,
+.about p {
+  text-align: center;
+}
+
+.about h3, 
+.food h3 {
+  font-size: 36px;
+  padding-bottom: 15px;
+}
+
+.food {
+  overflow: hidden;
+  background-color: #ffd400;
+}
+
+.food div {
+  float: left;
+  width: 50%;
+  padding: 60px 80px 30px;
+}
+
+.food img {
+  float: left;
+  width: 50%;
+}
+
+.food div p,
+.food div h3 {
+  max-width: 400px;
+  margin: 0 auto 30px;
+}
+
+.quote {
+  background-color: #ffd7b3;
+}
+
+.quote p {
+  font-size: 32px;
+  text-align: center;
+  max-width: 700px;
+  padding: 100px 0 100px 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image {
+  overflow: hidden;
+}
+
+.image img {
+  float: left;
+  width: 33.333%;
+}
+
+.findus {
+  background-color: #2f6a49;
+  overflow: hidden;
+}
+
+.findus div {
+  float: left;
+  width: 33.333%;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.findus div p {
+  color: #ffb6c4;
+  padding-bottom: 25px;
+  max-width: 250px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.findus div img {
+  display: block;
+  max-width: 280px;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logos {
+  padding: 40px 20px 100px 20px;
+  text-align: center;
+}
+
+.logos p {
+  color: #fe5504;
+  margin-bottom: 50px;
+}
+
+.logos img {
+  max-width: 150px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.logos img:last-child,
+.logos img:nth-child(3) {
+  padding-bottom: 7.5px;
+}
+
+footer {
+  overflow: hidden;
+  padding: 20px;
+  background-color: #ffb6c4;
+}
+
+footer img {
+  float: left;
+  max-width: 140px;
+}
+footer p {
+  color: #2f6a49;
+  float: right;
+}
+
+@media (max-width: 1040px) {
+  .food div {
+    padding: 30px 80px 15px;
+  }
+}
+
+@media (max-width: 940px) {
+  .hero {
+    padding: 125px 25px;
+  }
+  .about {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .food div {
+    float: none;
+    width: 100%;
+    padding: 60px 25px 30px;
+    text-align: center;
+  }
+
+  .food img {
+    float: none;
+    width: 100%;
+  }
+  .food div p {
+    max-width: 800px;
+  }
+  
+  .quote {padding-right: 25px;
+    padding-left: 25px;
+  }
+  
+  .findus {padding-right: 25px;
+    padding-left: 25px;}
+}
+
+@media (max-width:730px){
+  
+  .findus div {
+    float: none; 
+    width: 100%;
+    padding: 25px 30px;
+  }
+  
+  .logos {padding: 40px 25px}
+   .logos img {display: block; margin: 15px auto;}
+}
+
+@media (max-width:570px) {
+  header h1, 
+  header nav {float: none; margin-top:15px;}
+  header nav a {font-size: 14px;}
+  
+  .hero h2, 
+  .about h3,
+  .quote p {font-size: 30px;}
+  
+  .about p
+  .food p,
+  .findus p,
+  .logos p 
+  .footer p {font-size: 16px;}
+  
+  .image img {float: none; width: 100%;}
+  
+  .findus div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}

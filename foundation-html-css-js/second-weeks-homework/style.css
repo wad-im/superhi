@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+body {
+  font-family: 'Space Mono', monospace;
+  max-width: 1400px;
+  padding-left: 100px; padding-right:100px;
+  background-color: #000000;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+header {
+  margin-top: 150px;
+  margin-bottom: 175px;
+}
+
+section {
+  padding-bottom: 90px;
+}
+
+.section_1 p, .section_4 p, .section_7 p {
+  max-width: 350px; 
+  }
+
+.section_3 p {
+  margin-top:  50px;
+  padding: 20px 20px 20px 20px;
+  background-color: #ffffff;
+  color: black;
+  max-width: 630px;
+  vertical-align: middle;
+}
+
+.section_5 p {
+  margin-top:  50px;
+  padding: 20px 20px 20px 20px;
+  background-color: #ffffff;
+  color: black;
+  max-width: 1110.13px;
+  vertical-align: middle;
+}
+
+.section_7 {max-width: 1098px;
+}
+
+h1 {
+  font-size: 24px; padding-bottom: 50px; border-bottom: 1px solid #ffffff; margin-bottom: 50px; 
+}
+
+a {
+  color: #6A6A6A;
+}
+.contact {margin-bottom: 45px;}
+
+footer {
+  max-width:  1100px;
+  background-color: #1A1A1A;
+  padding-left: 47px; padding-top: 34px; padding-bottom: 34px;
+  margin-bottom: 90px;
+}
+
+@media (max-width: 720px) {
+  body {font-size: 12px;line-height: 1.5; padding-right: 30px; padding-left: 30px;}
+  header {max-width: 75%;  margin-top: 36px;
+  margin-bottom: 36px;}
+  h1 {font-size: 12px; line-height: 1.5; padding-bottom: 25px;  margin-bottom: 25px}
+  section {padding-bottom: 45px;}
+  .section_3 p, .section_5 p { margin-top:  25px; padding: 10px 10px 10px 10px;}
+  footer {margin-right: -30px; margin-left:-30px; margin-bottom:-30px}
+  a {display: block;}
+  }
+
