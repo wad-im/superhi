@@ -4,12 +4,22 @@
 
 all projects of this course are live
 
-## [Rose Culver](rose-culver-428.superhi.com)
+## Rose Culver
 
-## [Plant Project](plant-project-1.superhi.com)
+[Link to live website](rose-culver-428.superhi.com)
 
-## [Type-Checker](type-checker-281.superhi.com)
+## Plant Project
 
-## [Jenna Bucholz](jenna-buchholz-162.superhi.com)
+[Link to live website](plant-project-1.superhi.com)
 
-## [Brux](brux-211.superhi.com)
+## Type Checker
+
+[Link to live website](type-checker-281.superhi.com)
+
+## Jenna Bucholz
+
+[Link to live website](jenna-buchholz-162.superhi.com)
+
+## Brux
+
+[Link to live website](brux-211.superhi.com)
