@@ -1,0 +1,298 @@
+@font-face {
+  font-family: "Lunchtype-regular";
+  src: url('lunchtype22-regular-webfont.woff2'), url('lunchtype22-regular-webfont.woff'), url('lunchtype22-regular-webfont.ttf');
+}
+
+@font-face {
+  font-family: "Lunchtype-medium";
+  src: url('lunchtype24-medium-expanded-webfont.woff2'), url('lunchtype24-medium-expanded-webfont.woff'), url('lunchtype24-medium-expanded-webfont.ttf');
+}
+
+body{
+  font-family: "Lunchtype-regular", sans serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.section-pad {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.container {
+  max-width: 810px;
+  margin: auto;
+}
+
+.day .container {
+  position: relative;
+  z-index: 2;
+}
+.intro {
+  background-image: url(intro.jpg);
+  
+}
+
+.intro p {
+  font-size: 36px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+  margin-bottom: 32px;
+  max-width: 112px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translate(0);
+  }
+  100% {
+    opacity: 1;
+  }
+ }
+
+.appear {
+  opacity: 0;
+  animation: fadeIn;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+.marquee {
+  position: absolute;
+  top: 3vh;
+  left: 0;
+  width: 100%;
+  font-size: 5vh;
+  color: #fff;
+  font-family: "Lunchtype-medium", sans-serif;
+  line-height: 1;
+  overflow: hidden;
+  }
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-3000vw);
+  }
+}
+
+.marquee span {
+  animation: moveLeft 300s linear;
+  position: relative;
+  white-space: nowrap;
+  display: block;
+  }
+
+.mix-difference {
+  mix-blend-mode: difference;
+}
+
+.day-1 {
+  background-color: #FF74A7;
+}
+
+.day-2 {
+  background-color: #00B290;
+}
+
+.day-3 {
+  background-image: url(day-3.jpg);
+}
+
+.day {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.date {
+  font-family: "Lunchtype-medium", sans-serif;
+  font-size: 28px;
+  color: #FFEED1;
+  margin-bottom: 48px;
+  line-height: 1;
+  }
+
+.lineup h2 {
+  font-family: "Lunchtype-medium", sans-serif;
+  font-size: 56px;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.lineup p {
+  font-size: 21px;
+  margin-bottom: 26px;
+}
+
+.scroll-to {
+  position: absolute;
+  width: 64px;
+  height: 32px;
+  left: 50%;
+  bottom: 3vh;
+  transform: translateX(-50%);
+  background-image: url(down-arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.scroll-to-intro {
+  background-image: url(down-arrow-light.svg);
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.register {
+  min-height: 65vh;
+  display: flex;
+  background-color: #ffeecf;
+}
+
+footer {
+  min-height: 35vh;
+  display: flex;
+  background-color: #111118;
+  text-align: center;
+}
+
+footer img {
+  max-width: 87px;
+  margin-bottom: 24px;
+}
+
+.button {
+  border: solid 2px #ffeecf;
+  color: #ffeecf;
+  line-height: 1;
+  padding: 6px 12px;
+  min-width: 120px;
+  text-align: center;
+  font-family: "Lunchtype-medium";
+  text-decoration: none;
+}
+
+.register .container {
+  display: flex;
+}
+
+.register h2 {
+  font-size: 48px;
+  font-family: "Lunchtype-medium";
+  margin-bottom: 48px;
+}
+
+.eyes {
+  width: 108px;
+  height: 32px;
+  background-image: url(eyes_open.svg);
+  }
+
+.form {
+  margin: 48px 24px ;
+}
+
+input {
+  background: none;
+  border: none;
+  font-size: 21px;
+}
+.email-input {
+  flex: 1;
+}
+
+
+.sign-up {
+  display: flex;
+  border-bottom: solid 2px #1bb190;
+  padding-bottom: 12px;
+}
+
+.submit {
+  font-family: "Lunchtype-medium";
+}
+
+.hand {
+  width: 57px;
+  height: 89px;
+  background-image: url(ok_hand.svg);
+  align-self: flex-end;
+}
+
+.eyes, .hand {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media(max-width: 780px){
+  .register .container {
+    flex-direction: column;
+  }
+  .register h2 {
+    font-size: 30px;
+  }
+  .form {
+    margin: 24px 0;
+  }
+}
+
+@media(max-width: 640px){
+  .marquee {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 90vw;
+   	}
+  .logo{
+    max-width: 64px;
+    margin-bottom: ;24px
+  }
+  .intro p {
+    font-size: 20px;
+  }
+  
+  .scroll-to {
+    display: none;
+  }
+  
+  .lineup h2 {
+    font-size: 30px;
+  }
+}
+
+
+
