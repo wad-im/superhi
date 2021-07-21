@@ -1,0 +1,75 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-size: 48px;
+}
+
+.tunnel circle, 
+#crosses path, 
+#squares rect {
+  transform-origin: center;
+}
+
+.w-200 {
+  width: 200%;
+}
+
+.bg-yellow {
+	background-color: #fff636;  
+}
+
+.bg-blue {
+  background-color: #77ebfd; 
+}
+
+.bg-red {
+  background-color: #fc3035; 
+}
+
+.bg-purple{
+  background-color: #cb89fc; 
+}
+
+.box {
+  box-shadow: inset 0 0 0 4px #000;
+}
+
+.conveyor-belt {
+  border-left: 4px solid #000000;
+  border-right: 4px solid #000000;
+}
+
+.page {
+  border-left: 4px solid #000000;
+  border-right: 4px solid #000000;
+}
+
+.page:after,
+.page:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color: #000;
+  z-index: 3;
+}
+
+.page:before {
+  top: 0;
+}
+
+.page:after {
+  bottom: 0;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #000;
+}
+
+#squares rect {
+  transform:  translate(-50%, -50%);
+  transform-box: fill-box;
+} 
